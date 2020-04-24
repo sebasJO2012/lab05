@@ -1,0 +1,26 @@
+`timescale 1ns / 1ps
+
+module Res3b( A, B, Init, Bo, S);
+    input [2:0] A;
+    input [2:0] B;
+    input Init;
+    output Bo;
+    output [2:0] S;
+	 
+		wire c1,c2,c3;
+		wire [2:0] A1;
+		wire [2:0] B1;
+	 	wire [2:0] S1;
+		
+		assign A1=Init?A:0;
+		assign B1=Init?B:0;
+		assign Bo=c3?1:0;
+		
+		
+		Sum1b r0 (.A(A1[0]), .B(B1[0]), .Bi(0),  .Bo(c1) ,.S(S1[0]));
+		Sum1b r1 (.A(A1[1]), .B(B1[1]), .Bi(c1), .Bo(c2) ,.S(S1[1]));
+		Sum1b r2 (.A(A1[2]), .B(B1[2]), .Bi(c2), .Bo(c3) ,.S(S1[2]));
+		
+		
+		
+endmodule

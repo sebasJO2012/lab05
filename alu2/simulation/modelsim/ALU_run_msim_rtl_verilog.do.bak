@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/proyectos\ quartus/alu {C:/Users/paula nikol/Documents/proyectos quartus/alu/sum4b.v}
+vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/proyectos\ quartus/alu {C:/Users/paula nikol/Documents/proyectos quartus/alu/multiplicador.v}
+vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/proyectos\ quartus/alu {C:/Users/paula nikol/Documents/proyectos quartus/alu/BCDtoSSeg.v}
+vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/proyectos\ quartus/alu {C:/Users/paula nikol/Documents/proyectos quartus/alu/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/paula\ nikol/Documents/proyectos\ quartus/alu {C:/Users/paula nikol/Documents/proyectos quartus/alu/display.v}
+

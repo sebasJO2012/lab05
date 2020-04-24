@@ -1,0 +1,144 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/paula nikol/Documents/proyectos quartus/alu/simulation/modelsim
+vALU
+!s110 1587520493
+!i10b 1
+!s100 BYY>gR9270Bec50ANlKRN0
+ImdO6_Mn99U[MGnKY9c8U91
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1587520048
+8C:/Users/paula nikol/Documents/proyectos quartus/alu/alu.v
+FC:/Users/paula nikol/Documents/proyectos quartus/alu/alu.v
+L0 4
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1587520492.000000
+!s107 C:/Users/paula nikol/Documents/proyectos quartus/alu/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/proyectos quartus/alu|C:/Users/paula nikol/Documents/proyectos quartus/alu/alu.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/paula nikol/Documents/proyectos quartus/alu}
+Z6 tCvgOpt 0
+n@a@l@u
+vBCDtoSSeg
+!s110 1587520492
+!i10b 1
+!s100 M_<Y3ie=gg_2OemXlVoWz3
+Ii:UiS06c=PaP5Ldki3mR:2
+R1
+R0
+w1587519304
+8C:/Users/paula nikol/Documents/proyectos quartus/alu/BCDtoSSeg.v
+FC:/Users/paula nikol/Documents/proyectos quartus/alu/BCDtoSSeg.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/paula nikol/Documents/proyectos quartus/alu/BCDtoSSeg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/proyectos quartus/alu|C:/Users/paula nikol/Documents/proyectos quartus/alu/BCDtoSSeg.v|
+!i113 1
+R4
+R5
+R6
+n@b@c@dto@s@seg
+vdisplay
+Z7 !s110 1587520494
+!i10b 1
+!s100 EZK1DFTif>n8Le?MCVk712
+IW?MH?NIaoUn?_>=2P=Mj23
+R1
+R0
+w1587519602
+8C:/Users/paula nikol/Documents/proyectos quartus/alu/display.v
+FC:/Users/paula nikol/Documents/proyectos quartus/alu/display.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1587520493.000000
+!s107 C:/Users/paula nikol/Documents/proyectos quartus/alu/display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/proyectos quartus/alu|C:/Users/paula nikol/Documents/proyectos quartus/alu/display.v|
+!i113 1
+R4
+R5
+R6
+vmultiplicador
+!s110 1587520491
+!i10b 1
+!s100 ;D3?SV:MP]CG_i^70BUbS2
+IbiYkFDT[D[=OUeZ1f>SRi0
+R1
+R0
+w1587519287
+8C:/Users/paula nikol/Documents/proyectos quartus/alu/multiplicador.v
+FC:/Users/paula nikol/Documents/proyectos quartus/alu/multiplicador.v
+L0 21
+R2
+r1
+!s85 0
+31
+!s108 1587520491.000000
+!s107 C:/Users/paula nikol/Documents/proyectos quartus/alu/multiplicador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/proyectos quartus/alu|C:/Users/paula nikol/Documents/proyectos quartus/alu/multiplicador.v|
+!i113 1
+R4
+R5
+R6
+vsum4b
+!s110 1587520490
+!i10b 1
+!s100 <mXFE6?bajbaCoSnCfC:01
+IZ;n0?caYlMAH3XcS7@IQf0
+R1
+R0
+w1587519241
+8C:/Users/paula nikol/Documents/proyectos quartus/alu/sum4b.v
+FC:/Users/paula nikol/Documents/proyectos quartus/alu/sum4b.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1587520490.000000
+!s107 C:/Users/paula nikol/Documents/proyectos quartus/alu/sum4b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/proyectos quartus/alu|C:/Users/paula nikol/Documents/proyectos quartus/alu/sum4b.v|
+!i113 1
+R4
+R5
+R6
+vtestbench
+R7
+!i10b 1
+!s100 03WhUzkmF:<XKNC<0cU1c0
+IfdCohhGA8?jSmOGFR<5:80
+R1
+R0
+w1587520433
+8C:/Users/paula nikol/Documents/proyectos quartus/alu/testbench.v
+FC:/Users/paula nikol/Documents/proyectos quartus/alu/testbench.v
+L0 25
+R2
+r1
+!s85 0
+31
+!s108 1587520494.000000
+!s107 C:/Users/paula nikol/Documents/proyectos quartus/alu/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/paula nikol/Documents/proyectos quartus/alu|C:/Users/paula nikol/Documents/proyectos quartus/alu/testbench.v|
+!i113 1
+R4
+R5
+R6
